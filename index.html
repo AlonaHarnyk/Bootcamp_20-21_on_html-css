@@ -5,44 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <a href="./index.html"><img src="./images/logo.svg" alt="logo" /></a>
       <nav>
         <ul>
-          <li><a href="">О нас</a></li>
-          <li><a href="">Услуги и цены</a></li>
-          <li><a href="">Мастера</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" class="nav-link">О нас</a></li>
+          <li><a href="" class="nav-link">Услуги и цены</a></li>
+          <li><a href="" class="nav-link">Мастера</a></li>
+          <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button>онлайн-запись</button>
+      <a href="tel:+380441111111" class="header-contact">+38 044 111 11 11</a>
+      <button class="button">онлайн-запись</button>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Youtube</a></li>
+          <li><a href="" class="social-link">Instagram</a></li>
+          <li><a href="" class="social-link">Youtube</a></li>
         </ul>
-        <p lang="en">A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p lang="en" class="title-label">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="after-title">
           Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
           вкусом.
         </p>
         <ul>
           <li>
-            <button type="button">Вперёд</button>
+            <button type="button" class="hero-controller left disabled">
+              Вперё<br />д
+            </button>
           </li>
           <li>
-            <button type="button">Назад</button>
+            <button type="button" class="hero-controller right">
+              Наза<br />д
+            </button>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="about">
         <ul>
           <li>
             <img
@@ -61,7 +72,7 @@
             />
           </li>
         </ul>
-        <p>О НАС</p>
+        <p class="title-label">О НАС</p>
         <h2>Лучший Барбершоп твоего города</h2>
         <p>
           Если ты хочешь добавить в свой образ больше уверенности – тебе точно к
@@ -174,7 +185,7 @@
       </section>
       <section>
         <p>На латинском языке “барба” означает “борода”</p>
-        <h2>Галлерея</h2>
+        <h2 class="visually-hidden">Галлерея</h2>
         <ul>
           <li>
             <img
@@ -215,7 +226,7 @@
       </section>
       <section>
         <h2>Контакты</h2>
-        <address>
+        <address class="address">
           <ul>
             <li><a href="">ул. Васильковая, 7А Киев, 08132</a></li>
             <li><a href="">+38 044 111 11 11</a></li>

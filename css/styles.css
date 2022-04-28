@@ -1,0 +1,158 @@
+/* VARIABLES */
+
+:root {
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #ff6c00;
+  --light-color: #ffffff;
+  --main-grey: #303030;
+}
+
+/* RESET */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* GENERAL STYLES */
+body {
+  font-family: var(--main-font);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* UTILS */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* REUSED CLASSES */
+
+.title-label {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.after-title {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+}
+
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+/* HEADER */
+
+.nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--light-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--light-color);
+}
+
+.header .button {
+  color: var(--light-color);
+}
+
+/* HERO */
+
+.hero .social-link {
+  color: var(--main-grey);
+}
+
+.hero .social-link:hover,
+.hero .social-link:focus {
+  color: var(--accent-color);
+}
+
+.hero .title-label {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--light-color);
+}
+
+.hero-controller {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  color: var(--light-color);
+}
+
+.hero-controller.disabled {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-controller.left {
+  text-align: left;
+}
+
+.hero-controller.right {
+  text-align: right;
+}
+
+/* ABOUT */
+
+.about .title-label {
+  color: var(--main-grey);
+}
+
+/* CONTACTS */
+
+.address {
+  font-style: normal;
+}
