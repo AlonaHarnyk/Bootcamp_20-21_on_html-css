@@ -6,6 +6,7 @@
   --accent-color: #ff6c00;
   --light-color: #ffffff;
   --main-grey: #303030;
+  --secondary-grey: #9DA4BD
 }
 
 /* RESET */
@@ -16,6 +17,18 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /* GENERAL STYLES */
@@ -26,6 +39,10 @@ body {
 button {
   cursor: pointer;
   font-family: inherit;
+}
+
+img {
+  display: block;
 }
 
 /* UTILS */
@@ -72,9 +89,24 @@ button {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  padding: 12px 20px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid tomato;
 }
 
 /* HEADER */
+
+.header {
+  background-color: grey;
+}
 
 .nav-link {
   font-weight: 600;
@@ -82,6 +114,8 @@ button {
   line-height: 1.33;
   letter-spacing: 0.1em;
   color: var(--light-color);
+  padding: 48px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -103,6 +137,9 @@ button {
 
 /* HERO */
 
+.hero-inner {
+  padding: 272px 48px 34px 96px;
+}
 .hero .social-link {
   color: var(--main-grey);
 }
@@ -114,6 +151,7 @@ button {
 
 .hero .title-label {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
 }
 
 .hero-title {
@@ -123,6 +161,13 @@ button {
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: var(--light-color);
+  margin-bottom: 20px;
+}
+
+.hero .after-title {
+  color: var(--secondary-grey);
+  max-width: 400px;
+  margin-bottom: 142px;
 }
 
 .hero-controller {
