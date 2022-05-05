@@ -9,6 +9,7 @@
   --secondary-grey: #9da4bd;
   --light-grey: rgba(157, 164, 189, 0.6);
   --bgr-grey: #f7f7f7;
+  --text-grey:  #555555;
   --transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -127,7 +128,6 @@ img {
 
 .section-title {
   font-family: var(--secondary-font);
-  font-weight: 700;
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
@@ -300,10 +300,52 @@ img {
 
 /* ABOUT */
 
-.about .title-label {
-  color: var(--main-grey);
+.about .container {
+  display: flex;
 }
 
+.about-list {
+  display: flex;
+}
+
+.about-list li + li {
+  margin-left: 30px;
+}
+
+.about-inner {
+  padding: 0 42px 0 64px;
+}
+
+.about .title-label {
+  color: var(--main-grey);
+  margin-bottom: 20px;
+}
+
+
+.about .title-label::before {
+  background-color: var(--main-grey);
+}
+
+.about .section-title {
+  color: var(--main-grey);
+  margin-bottom: 20px;
+}
+
+.about-first-text {
+font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: var(--text-grey);
+margin-bottom: 20px;
+}
+
+.about-second-text {
+font-size: 14px;
+line-height: 1.86;
+letter-spacing: 0.02em;
+color: var(--text-grey);
+margin-bottom: 42px;
+}
 /* PRICE */
 
 .price {
