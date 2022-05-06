@@ -9,7 +9,7 @@
   --secondary-grey: #9da4bd;
   --light-grey: rgba(157, 164, 189, 0.6);
   --bgr-grey: #f7f7f7;
-  --text-grey:  #555555;
+  --text-grey: #555555;
   --transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -152,6 +152,7 @@ img {
 .nav-list {
   display: flex;
 }
+
 .nav-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -235,6 +236,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .hero .social-link {
   color: var(--main-grey);
 }
@@ -321,7 +323,6 @@ img {
   margin-bottom: 20px;
 }
 
-
 .about .title-label::before {
   background-color: var(--main-grey);
 }
@@ -332,20 +333,21 @@ img {
 }
 
 .about-first-text {
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-color: var(--text-grey);
-margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--text-grey);
+  margin-bottom: 20px;
 }
 
 .about-second-text {
-font-size: 14px;
-line-height: 1.86;
-letter-spacing: 0.02em;
-color: var(--text-grey);
-margin-bottom: 42px;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--text-grey);
+  margin-bottom: 42px;
 }
+
 /* PRICE */
 
 .price {
@@ -362,6 +364,10 @@ margin-bottom: 42px;
   margin-bottom: 20px;
 }
 
+.price .title-label::before {
+  background-color: var(--secondary-grey);
+}
+
 .price .section-title {
   color: var(--light-color);
   margin-bottom: 44px;
@@ -373,6 +379,7 @@ margin-bottom: 42px;
   flex-wrap: wrap;
   position: relative;
   z-index: 10;
+  padding: 30px 0;
 }
 
 .price-list::before {
@@ -383,6 +390,7 @@ margin-bottom: 42px;
   position: absolute;
   background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
   z-index: -10;
+  top: 0;
 }
 
 .price-list::after {
@@ -402,7 +410,12 @@ margin-bottom: 42px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: var(--secondary-grey);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
 }
 
 .price-item:nth-child(5) {
@@ -427,15 +440,26 @@ margin-bottom: 42px;
 
 .price-item:nth-child(4) {
   order: 6;
+  margin-bottom: 0;
 }
 
 .price-item:nth-child(8) {
   order: 7;
+  margin-bottom: 0;
+}
+
+.price-underline {
+  height: 1px;
+  background-color: var(--secondary-grey);
+  opacity: 0.12;
+  flex-grow: 1;
+  margin: 0 6px;
 }
 
 .price .button {
   display: block;
   margin: 0 auto;
+  color: var(--light-color);
 }
 
 /* TEAM */
@@ -490,6 +514,7 @@ margin-bottom: 42px;
 .soc-link:focus {
   background-color: var(--main-grey);
 }
+
 .soc-link:hover .soc-icon,
 .soc-link:focus .soc-icon {
   fill: var(--accent-color);
