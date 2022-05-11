@@ -16,26 +16,29 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container">
-        <a href="./index.html" class="logo"
-          ><img src="./images/logo.svg" alt="logo"
+      <div class="container header__container">
+        <a href="./index.html" class="logo header__logo"
+          ><img src="./images/logo.svg" alt="logo" class="logo__img"
         /></a>
-        <nav>
-          <ul class="nav-list">
-            <li class="nav-item"><a href="" class="nav-link">О нас</a></li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Услуги и цены</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Услуги и цены</a>
             </li>
-            <li class="nav-item"><a href="" class="nav-link">Мастера</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Мастера</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
           </ul>
         </nav>
-        <a href="tel:+380441111111" class="header-contact">+38 044 111 11 11</a>
-        <button class="button">онлайн-запись</button>
+        <a href="tel:+380441111111" class="header__contact"
+          >+38 044 111 11 11</a
+        >
+        <button class="button header__button">онлайн-запись</button>
       </div>
     </header>
     <main>
@@ -109,14 +112,14 @@
       </section>
       <section class="section price">
         <div class="container">
-          <p class="title-label">Проведи время в компании лучших мастеров</p>
-          <h2 class="section-title">Услуги и цены</h2>
+          <p class="section__label">Проведи время в компании лучших мастеров</p>
+          <h2 class="section__title">Услуги и цены</h2>
 
-          <ul class="price-list">
-            <li class="price-item">
-              <p>Мужская стрижка</p>
-              <div class="price-underline"></div>
-              <p>от 300 грн.</p>
+          <ul class="price__list pricelist">
+            <li class="pricelist__item">
+              <p class="pricelist__ paragraph">Мужская стрижка</p>
+              <div class="pricelist__underline"></div>
+              <p class="pricelist__ paragraph">от 300 грн.</p>
             </li>
             <li class="price-item">
               <p>Стрижка бороды</p>
@@ -154,7 +157,9 @@
               <p>от 200 грн.</p>
             </li>
           </ul>
-          <button type="button" class="button">онлайн-запись</button>
+          <button type="button" class="button price__button">
+            онлайн-запись
+          </button>
         </div>
       </section>
       <section>
@@ -181,25 +186,26 @@
           </p>
         </div>
       </section>
-      <section class="team">
+      <section class="section team">
         <div class="container">
-          <p>для настоящих ценителей атмосферы</p>
-          <h2>Наши мастера</h2>
-          <ul>
-            <li class="team-item">
+          <p class="section__label">для настоящих ценителей атмосферы</p>
+          <h2 class="section__title">Наши мастера</h2>
+          <ul class="team__list teamlist">
+            <li class="teamlist__item">
               <img
                 src="./images/img4.jpg"
                 alt="стрижка"
                 width="370"
                 height="346"
+                class="teamlist__img"
               />
-              <div class="team-inner">
-                <h3 class="team-name">John Smith</h3>
-                <p class="team-prof">Extreme Barber</p>
-                <ul class="soc-list">
-                  <li class="soc-item">
-                    <a href="" class="soc-link"
-                      ><svg class="soc-icon">
+              <div class="teamlist__inner">
+                <h3 class="teamlist__name">John Smith</h3>
+                <p class="teamlist__prof">Extreme Barber</p>
+                <ul class="teamlist__soc soclist">
+                  <li class="soclist__item">
+                    <a href="" class="soclist__link"
+                      ><svg class="soclist__icon">
                         <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>

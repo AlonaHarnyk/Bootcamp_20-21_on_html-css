@@ -1,6 +1,6 @@
 /* VARIABLES */
 
-:root {
+/* :root {
   --main-font: "Open Sans", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #ff6c00;
@@ -11,11 +11,11 @@
   --bgr-grey: #f7f7f7;
   --text-grey: #555555;
   --transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* RESET */
 
-a {
+/* a {
   text-decoration: none;
 }
 
@@ -33,10 +33,10 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} */
 
 /* GENERAL STYLES */
-body {
+/* body {
   font-family: var(--main-font);
   background-color: #9da4bd;
 }
@@ -48,10 +48,10 @@ button {
 
 img {
   display: block;
-}
+} */
 
 /* UTILS */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -63,11 +63,11 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* REUSED CLASSES */
 
-.title-label {
+/* .title-label {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -75,7 +75,7 @@ img {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-}
+} */
 
 .title-label::before {
   content: "";
@@ -122,9 +122,9 @@ img {
   outline: 1px solid tomato;
 }
 
-.section {
+/* .section {
   padding: 130px 0;
-}
+} */
 
 .section-title {
   font-family: var(--secondary-font);
