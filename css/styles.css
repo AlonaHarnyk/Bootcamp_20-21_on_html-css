@@ -97,7 +97,7 @@ img {
   letter-spacing: 0.2em;
 }
 
-.button {
+/* .button {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -108,19 +108,19 @@ img {
   border-radius: 25px;
   padding: 12px 20px;
   transition: background-color var(--transition);
-}
+} */
 
-.button:hover,
+/* .button:hover,
 .button:focus {
   background-color: var(--accent-color);
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   outline: 1px solid tomato;
-}
+} */
 
 /* .section {
   padding: 130px 0;
@@ -135,29 +135,29 @@ img {
 
 /* HEADER */
 
-.header {
+/* .header {
   position: absolute;
   width: 100%;
-}
+} */
 
-.header .container {
+/* .header .container {
   display: flex;
   align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
   margin-right: 70px;
-}
+} */
 
-.nav-list {
+/* .nav-list {
   display: flex;
-}
+} */
 
-.nav-item:not(:last-child) {
+/* .nav-item:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -166,14 +166,14 @@ img {
   padding: 48px 0;
   display: block;
   transition: color var(--transition);
-}
+} */
 
-.nav-link:hover,
+/* .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
-}
+} */
 
-.header-contact {
+/* .header-contact {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -181,33 +181,34 @@ img {
   color: var(--light-color);
   margin-left: auto;
   margin-right: 40px;
-}
+} */
 
-.header .button {
+/* .header .button {
   color: var(--light-color);
-}
+} */
 
 /* HERO */
 
-.hero .container {
+/* .hero .container {
   display: flex;
-}
+} */
 
-.sidebar-wrapper {
+/* .sidebar-wrapper {
   display: flex;
   align-items: flex-end;
   padding-bottom: 40px;
-}
+    width: 94px;
+} */
 
-.sidebar {
-  width: 94px;
+/* .sidebar {
+  /* width: 94px; */
   transform: rotate(-90deg);
   display: flex;
   align-items: center;
   position: relative;
   bottom: 140px;
   padding-bottom: 30px;
-}
+} */
 
 .sidebar::before {
   content: "";

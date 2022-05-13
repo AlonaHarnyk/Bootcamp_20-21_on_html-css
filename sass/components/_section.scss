@@ -1,14 +1,23 @@
 .section {
   padding: 130px 0;
+}
 
-  &__label {
-    @include font(11px, 1.36, 600);
-    // font-weight: 600;
-    // font-size: 11px;
-    // line-height: 1.36;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
+.section__label {
+  @include font(11px, 1.36, 600);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  &::before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
   }
+}
+
+.section__after-title {
+    font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
 }

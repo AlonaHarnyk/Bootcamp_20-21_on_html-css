@@ -1,0 +1,24 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--light-color);
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.header__button {
+  color: var(--light-color);
+}

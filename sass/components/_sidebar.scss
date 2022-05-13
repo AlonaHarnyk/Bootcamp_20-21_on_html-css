@@ -1,0 +1,26 @@
+.sidebar {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+
+.sidebar__list {
+  width: 94px;
+  transform: rotate(-90deg);
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 140px;
+  padding-bottom: 30px;
+
+  &::before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: var(--main-grey);
+    display: block;
+    position: absolute;
+    margin-right: 40px;
+    right: 100%;
+  }
+}
