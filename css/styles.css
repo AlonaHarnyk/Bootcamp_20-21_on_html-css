@@ -77,25 +77,25 @@ img {
   align-items: center;
 } */
 
-.title-label::before {
+/* .title-label::before {
   content: "";
   width: 60px;
   height: 1px;
   margin-right: 20px;
-}
+} */
 
-.after-title {
+/* .after-title {
   font-size: 18px;
   line-height: 1.66;
   letter-spacing: 0.02em;
-}
+} */
 
-.social-link {
+/* .social-link {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
-}
+} */
 
 /* .button {
   font-weight: 600;
@@ -201,7 +201,6 @@ img {
 } */
 
 /* .sidebar {
-  /* width: 94px; */
   transform: rotate(-90deg);
   display: flex;
   align-items: center;
@@ -210,7 +209,7 @@ img {
   padding-bottom: 30px;
 } */
 
-.sidebar::before {
+/* .sidebar::before {
   content: "";
   width: 60px;
   height: 1px;
@@ -219,13 +218,13 @@ img {
   position: absolute;
   margin-right: 40px;
   right: 100%;
-}
+} */
 
-.sidebar li:not(:last-child) {
+/* .sidebar li:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
-.hero-inner {
+/* .hero-inner {
   padding: 272px 48px 34px 96px;
   flex-grow: 1;
   background-color: gray;
@@ -236,27 +235,27 @@ img {
     url("../images/slider.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
-.hero .social-link {
+/* .hero .social-link {
   color: var(--main-grey);
-}
+} */
 
-.hero .social-link:hover,
+/* .hero .social-link:hover,
 .hero .social-link:focus {
   color: var(--accent-color);
-}
+} */
 
-.hero .title-label {
+/* .hero .title-label {
   color: var(--light-grey);
   margin-bottom: 20px;
-}
+} */
 
-.hero .title-label::before {
+/* .hero .title-label::before {
   background-color: var(--light-grey);
-}
+} */
 
-.hero-title {
+/* .hero-title {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 72px;
@@ -264,15 +263,15 @@ img {
   letter-spacing: 0.05em;
   color: var(--light-color);
   margin-bottom: 20px;
-}
+} */
 
-.hero .after-title {
+/* .hero .after-title {
   color: var(--secondary-grey);
   max-width: 400px;
   margin-bottom: 142px;
-}
+} */
 
-.controllers {
+/* .controllers {
   display: flex;
   justify-content: flex-end;
 }
@@ -299,7 +298,7 @@ img {
 
 .hero-controller.right {
   text-align: right;
-}
+} */
 
 /* ABOUT */
 
