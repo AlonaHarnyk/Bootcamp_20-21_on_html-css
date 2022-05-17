@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="thumb">
+        <img
+          srcset="
+            ./images/photo-desk1x.jpg 270w,
+            ./images/photo-tab1x.jpg  354w,
+            ./images/photo-mob1x.jpg  450w,
+            ./images/photo-desk2x.jpg 540w,
+            ./images/photo-tab2x.jpg  708w,
+            ./images/photo-mob2x.jpg  900w
+          "
+          sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (max-width: 480px) 450px"
+          src="./images/photo-mob1x.jpg"
+          alt="team member"
+        />
+        <picture>
+          <source
+            srcset="
+              ./images/photo-desk1x.webp 1x,
+              ./images/photo-desk2x.webp 2x
+            "
+            media="(min-width:1200px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./images/photo-desk1x.jpg 1x, ./images/photo-desk2x.jpg 2x"
+            media="(min-width:1200px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="./images/photo-tab1x.webp 1x, ./images/photo-tab2x.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./images/photo-tab1x.jpg 1x, ./images/photo-tab2x.jpg 2x"
+            media="(min-width:768px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="./images/photo-mob1x.webp 1x, ./images/photo-mob2x.webp 2x"
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./images/photo-mob1x.jpg 1x, ./images/photo-mob2x.jpg 2x"
+            media="(max-width:767px)"
+            type="image/jpeg"
+          />
+          <img src="./images/photo-mob1x.jpg" alt="team member" />
+        </picture>
+      </div>
+    </div>
+  </body>
+</html>
